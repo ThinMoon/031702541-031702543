@@ -3,15 +3,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>jquery实现多级树形分类可折叠菜单特效代码</title>
+    <title>FamilyTree</title>
 
     <!--图标样式-->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
 
     <!--主要样式-->
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
-    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
-    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
     <script type="text/javascript" src="js/test.js"></script>
@@ -38,26 +36,13 @@
 </head>
 <body>
 
-<nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-            <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>                        
-            </button>
-            <a class="navbar-brand" href="#">学术家族树生成器</a>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav">
-                <li><a href="./JStext.html">主页</a></li>
-                <li class="active"><a href="#">家族树</a></li>
-            </ul>
-            </div>
-        </div>
-</nav>    
-
-<div class="tree well" style="background-color:bisque">
+    <ul class="dhbody">
+        <li class="left"><a href="#home">学树家族树生成器</a></li>
+        <li class="left"><a href="JStext.html">主页</a></li>
+        <li class="left"><a class="active" href="#contact">家族树</a></li>
+      </ul>
+      <br>
+<div class="tree well">
 
     <ul id="rootUL">
 

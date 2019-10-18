@@ -2,13 +2,14 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>jstest</title>
+<title>InputTextPage</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="css/style.css"/>
-<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<!--<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
 <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
-<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
 <script src="./js/test.js"></script>
 
 
@@ -27,29 +28,18 @@
 <body class = "bodybg">
     
 
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-            <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>                        
-            </button>
-            <a class="navbar-brand" href="#">学术家族树生成器</a>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#">主页</a></li>
-                <li><a href="#">家族树</a></li>
-            </ul>
-            </div>
-        </div>
-    </nav>
-          
-
+    <ul class="dhbody">
+        <li class="left"><a href="#">学树家族树生成器</a></li>
+        <li class="left"><a class="active" href="JStext.html">主页</a></li>
+        <li class="left"><a href="#contact">家族树</a></li>
+    </ul>
+    <br>
+    <br>
+    <br>
+         
     <div class="container">
         <label>输入符合规则的信息</label><br>
-        <textarea id="myTextarea" cols="50" rows="15"></textarea>
+        <textarea id="myTextarea" cols="50" rows="12"></textarea>
         <br>
         <button type="button" class="btn btn-primary"  onclick="getStr()">生成树</button>
     </div>

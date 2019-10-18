@@ -70,10 +70,11 @@ input[type=text]:focus, textarea:focus {
     border: 1px solid rgba(81, 203, 238, 1); 
 }
 .container {
-    padding-right: 420px;
-    padding-left: 420px;
+    padding-right: 565px;
+    padding-left: 565px;
     margin-left: auto;
     margin-right: auto;
+ 
 }
 img.float {
     float:right;
@@ -90,18 +91,6 @@ img.float {
 .node {
     cursor: pointer;
 }
-
-.node circle {
-  fill: #357CAE;
-  stroke: steelblue;
-  stroke-width: 3px;
-}
-.node rect {
-  fill: #2990ca;
-  stroke: steelblue;
-  stroke-width: 1.5px;
-}
-
 .node text {
   font: 7px sans-serif;
 }
@@ -119,4 +108,34 @@ img.float {
 }
 label {
     color: #fff;
+}
+ul.dhbody {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li.left {
+    float: left;
+}
+
+li.left a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.left a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
 }
