@@ -26,9 +26,7 @@
          }
      }
 
-     for(var i = 0; i < block.length; i++){
-        // console.log(block[i]);
-     }
+    
      
      for(var k = 0; k < block.length; k++){
          //导师节点
