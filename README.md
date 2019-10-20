@@ -17,3 +17,4 @@
    - 在家族树界面若想重新生成新的树，可点击主页按钮跳回文本框界面
 
    ![](https://github.com/Brokenpumpkin/MyPicture/blob/master/QQ%E6%88%AA%E5%9B%BE20191018211819.png)
+# 注意：多棵树情况请勿输入相同导师名字！！！
