@@ -10,6 +10,7 @@
 
 2. 如何运行网页
 
+   - 点击Github上的Clone or Download按钮后可选择下载压缩包或复制链接后使用git clone命令下载
    - 通过Chrome浏览器打开JStext.html，在输入框中输入符合格式的信息，点击按钮便会跳转到家族树界面
 
    ![](https://github.com/Brokenpumpkin/MyPicture/blob/master/QQ%E6%88%AA%E5%9B%BE20191018211757.png)
